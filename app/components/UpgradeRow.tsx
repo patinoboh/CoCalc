@@ -8,7 +8,7 @@ export default function UpgradeRow({
   const remaining = new Date(upgrade.end_time).getTime() - now
 
   return (
-    <div style={{ border: "1px solid #ccc", marginBottom: 8, padding: 10 }}>
+    <div style={{ border: "1px solid #000", marginBottom: 8, padding: 10, borderRadius: 6 }}>
       <b>{upgrade.title}</b> ({player?.name || "unknown"})
 
       <div>
