@@ -91,7 +91,7 @@ export default function Home() {
   if (!user) return <div style={{ padding: 20 }}>Loading login...</div>
 
   return (
-    <main style={{ padding: 20, maxWidth: 1000, margin: "0 auto" }}>
+    <main style={{ padding: 20, maxWidth: 1000, margin: "0 auto", border: "2px solid #000" }}>
       <TopBar
         user={user}
         players={players}
