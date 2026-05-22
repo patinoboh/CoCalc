@@ -199,7 +199,7 @@ export default function Home() {
             fontWeight: 600,
           }}
         >
-          Send Magic Link
+          Send Magic Link PATINO JE BOSSS
         </button>
       </main>
     )
