@@ -100,7 +100,16 @@ export default function AddUpgradeForm({
       <button
         onClick={add}
         disabled={loading}
-        style={{ marginTop: 10 }}
+        style={{ 
+            marginTop: 10,
+            padding: "10px 14px",
+            borderRadius: 8,
+            border: "1px solid #333",
+            background: "#111",
+            color: "white",
+            cursor: "pointer",
+            fontWeight: 600,
+        }}
       >
         {loading ? "Adding..." : "Add Upgrade"}
       </button>
