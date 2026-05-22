@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "coc_calc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
